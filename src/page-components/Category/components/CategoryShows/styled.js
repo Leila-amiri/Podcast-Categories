@@ -13,17 +13,6 @@ export const StyledCategoryShows = styled(Box)`
   }
 `;
 
-export const StyledBox = styled(Box)`
-   max-width: 100%;
-
-  ${screen.mobile} {
-    max-width: 480px;
-  }
-
-  ${screen.laptop} {
-    max-width: 800px;
-  }
-`;
 export const TextWrapper = styled.div`
    margin-bottom: 12px;
 
